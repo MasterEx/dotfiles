@@ -17,6 +17,19 @@ alias pavuk="/usr/local/bin/pavuk"
 alias dias="ssh -1 p3070130@dias.aueb.gr"
 alias server="ssh master@192.168.1.3"
 
+## git
+alias gstatus="git status"
+alias gadd="git add"
+alias grm="git rm"
+alias gpull="git pull"
+alias gpush="git push"
+alias gcommit="git commit -m"
+alias gcommita="git commit -a -m"
+alias glog="git log"
+alias gbranch="git branch -a"
+alias gcbranch="git branch -b"
+alias gch="git checkout"
+
 ## lampp
 alias apaches="/opt/lampp/lampp start"
 alias apachek="/opt/lampp/lampp stop"
