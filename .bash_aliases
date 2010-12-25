@@ -29,6 +29,7 @@ alias glog="git log"
 alias gbranch="git branch -a"
 alias gcbranch="git branch -b"
 alias gch="git checkout"
+alias gdiff="git diff"
 
 ## lampp
 alias apaches="/opt/lampp/lampp start"
