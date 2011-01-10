@@ -1,0 +1,15 @@
+#!/bin/bash
+# Master_ex (pntanasis@gmail.com)
+
+# mount iso
+function iso() {
+	local mntpoint="/media/iso/" # mount point
+	if [ ! -d $mntpoint ]; then
+		mkdir "$mntpoint"
+	fi
+	if [ $# -eq 1 ]; then
+		mount "$1" "$mntpoint" -t iso9660 -o loop=/dev/loop0
+	else
+		umount "$mntpoint"
+	fi
+}
