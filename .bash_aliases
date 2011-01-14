@@ -35,3 +35,7 @@ alias gdiff="git diff"
 alias apaches="/opt/lampp/lampp start"
 alias apachek="/opt/lampp/lampp stop"
 alias apacher="/opt/lampp/lampp restart"
+
+## virtual box
+alias vbox="modprobe vboxdrv"
+alias vboxsetup="/etc/rc.d/vboxdrv setup"
