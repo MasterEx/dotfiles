@@ -13,3 +13,8 @@ function iso() {
 		umount "$mntpoint"
 	fi
 }
+
+function serve() {
+	local port="8888"
+	nc.openbsd -l "$port" < $1
+}
