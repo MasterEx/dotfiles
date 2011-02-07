@@ -12,6 +12,7 @@ alias h="history"
 ## Other
 #alias gtkredshift='gtk-redshift -l 38.00212312830561:23.73350501060486'
 alias pavuk="/usr/local/bin/pavuk"
+alias irc="terminal --command=irssi --title \"irssi chat client\" --geometry 72x22+0+0 --hide-borders --hide-toolbars --hide-menubar"
 
 ## ssh
 alias dias="ssh -1 p3070130@dias.aueb.gr"
@@ -37,5 +38,6 @@ alias apachek="/opt/lampp/lampp stop"
 alias apacher="/opt/lampp/lampp restart"
 
 ## virtual box
-alias vbox="modprobe vboxdrv"
+alias vbox="modprobe vboxdrv; modprobe vboxnetflt"
+alias vboxrm="modprobe -r vboxdrv vboxnetflt"
 alias vboxsetup="/etc/rc.d/vboxdrv setup"
