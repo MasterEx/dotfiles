@@ -41,3 +41,12 @@ alias apacher="/opt/lampp/lampp restart"
 alias vbox="modprobe vboxdrv; modprobe vboxnetflt"
 alias vboxrm="modprobe -r vboxdrv vboxnetflt"
 alias vboxsetup="/etc/rc.d/vboxdrv setup"
+
+### speed dial
+alias go1="cd $HOME/Workspace"
+alias go2="cd $HOME/github"
+alias go3="cd $HOME/Downloads"
+alias go4="cd $HOME/Downloads/Torrents"
+alias go5="cd $HOME/aueb"
+alias go6="cd $HOME/NetBeansProjects"
+alias go7="cd /opt/lampp/htdocs"
