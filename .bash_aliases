@@ -11,7 +11,6 @@ alias h="history"
 
 ## Other
 #alias gtkredshift='gtk-redshift -l 38.00212312830561:23.73350501060486'
-alias pavuk="/usr/local/bin/pavuk"
 alias irc="terminal --command=irssi --title \"irssi\ chat\ client\" --geometry 72x22+0+0 --hide-borders --hide-toolbars --hide-menubar && bisown"
 
 ## ssh
